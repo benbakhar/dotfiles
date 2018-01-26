@@ -1,0 +1,28 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "eslint.options": {
+        "configFile": "/var/www/new-editor/.eslintrc"
+    },
+    "editor.formatOnSave": true,
+    "eslint.autoFixOnSave": true,
+    "javascript.validate.enable": false,
+    "window.zoomLevel": 0,
+    "editor.tabSize": 2,
+    "editor.autoIndent": true,
+    "editor.insertSpaces": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "coverage": true,
+        "node_modules": false,
+        ".idea/": true,
+        ".vscode/": true
+    },
+    "typescript.check.tscVersion": false,
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "html.format.enable": false,
+    "editor.detectIndentation": true
+}
